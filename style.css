@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Nunito;
+   src: url("assets/fonts/Nunito_Sans/NunitoSans-Bold.ttf");
+ }
+
+ * {
+  box-sizing: border-box;
+}
+
+.header{
+      background-color: rgb(156, 136, 154);
+      border: 1px solid rgb(156, 136, 154);
+}
+
+.main
+{
+    background-color: rgb(229, 229, 238);
+    border: 1px solid rgb(229, 229, 238);
+    
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section {
+  width: 50%;
+  border: 2px solid rgb(68, 67, 68);
+}
+
+.footer
+{
+    background-color: rgb(0, 81, 255);
+    border: 1px solid chartreuse;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.container {
+  background-color: lawngreen;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav{
+    background-color: darkblue;
+}
+
+.nav-list
+{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 10px;
+  line-height: 40px;
+  background-color: rgba(255, 252, 251, 0.616);
+  margin: 0;
+}
+
+.nav-item
+{
+    /*background-color: darkgreen;*/
+    margin-left: 10px;
+}
+
+.nav-link {
+  transition: .3s;
+}
+
+img {
+  border-radius: 60%;
+ 
+ 
+}
+
+.section-summary
+{
+    font-size: 20px;
+    
+}
+
+.section-viktoria{
+    align-items: center;
+}
+
+.section-name{
+    align-items: center;
+
+}
+
+.nav-list-footer{
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  list-style: none;
+  padding: 0 30px;
+  line-height: 50px;
+  background-color: rgba(255, 252, 251, 0.616);
+  margin: 0px;
+    
+}
+
+.nav-item-footer{
+    margin-left: 20px;
+   
+}

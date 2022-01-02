@@ -78,7 +78,7 @@ img {
  
 }
 
-.section-summary
+/* .section-summary
 {
     font-size: 20px;
     
@@ -91,7 +91,7 @@ img {
 .section-name{
     align-items: center;
 
-}
+} */
 
 .nav-list-footer{
   display: flex;
